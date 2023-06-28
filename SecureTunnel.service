@@ -1,0 +1,28 @@
+[Unit]
+Description=Secure Tunnel Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Restart=always
+RestartSec=20s
+LimitCPU=infinity
+LimitFSIZE=infinity
+LimitDATA=infinity
+LimitSTACK=infinity
+LimitCORE=infinity
+LimitRSS=infinity
+LimitNOFILE=infinity
+LimitAS=infinity
+LimitNPROC=infinity
+LimitMEMLOCKS=infinity
+LimitSIGPENDING=infinity
+LimitMSGQUEUE=infinity
+LimitRPTRIO=infinity
+LimitRTTIME=infinity
+WorkingDirectory=/opt/SecureTunnel
+ExecStart=/opt/SecureTunnel/SecureTunnel --api https://relay.giegie.cc/sync/tunnel_device --id 49 --secret 1A1ExOTh
+
+[Install]
+WantedBy=multi-user.target
