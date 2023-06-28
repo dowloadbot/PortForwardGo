@@ -1,0 +1,17 @@
+{
+    "Api": "relay.giegie.cc",
+    "License": "PF-QPV44GTZRCV8S5WKXDI4",
+    "Secret": "clFpZSPx",
+    "Proxy": "internal",
+    "Speed": 0,
+    "ListenIP": "",
+    "OutBounds": null,
+    "DisableUDP": false,
+    "DisableTFO": true,
+    "DisableExec": false,
+    "DNS": [
+        "119.29.29.29",
+        "8.8.8.8"
+    ],
+    "FirewallLog": "firewall.log"
+}
