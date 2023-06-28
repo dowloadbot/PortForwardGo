@@ -1,2 +1,2 @@
-# Portforwardgo
-a backup for Portforwardgo 1.1.2
+# PortForwarGo
+a backup for PortForwardGo 1.1.2
